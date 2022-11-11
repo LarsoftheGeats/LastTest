@@ -37,7 +37,8 @@ function hasUniqueChars(word){
  //This is O(n^2) as the .includes function is itself linear, so we will run n operations each having a time complexity 
  //themselves of n.
  
-
+//Ex. cred
+//this has spce complexity of n, a new array size n is made, and a nother array of size n( destination) is also made
  console.log(hasUniqueChars("Monday"))
  console.log(hasUniqueChars("Moonday"))
  console.log(hasUniqueChars("2sday"))

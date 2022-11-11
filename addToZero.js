@@ -22,6 +22,9 @@ function myFunction(array){
 //The if statement on line 10 is a bit of a red herring, in general we should assume the worst case
 //which would be an array with no solution. 
 
+//extra credit
+//this has  space complexity zero as no new variables are created
+
 console.log(myFunction(arr1))
 console.log(myFunction(arr2))
 console.log(myFunction(arr3))
